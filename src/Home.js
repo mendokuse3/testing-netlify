@@ -1,6 +1,7 @@
 import React from 'react';
 import './CSS/Home.css'
 
+
 function Home(props) {
     return (
         <div className='homeContainer' onClick={() => props.goToDash()}>
