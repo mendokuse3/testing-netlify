@@ -1,0 +1,20 @@
+.match{
+    position: absolute;
+    top: 35px;
+    left: 12px;
+}
+.register{
+    position: absolute;
+    top: 35px;
+    right: 5px;
+}
+.left{
+position: absolute;
+    bottom: 77px;
+    left: -24px;
+}
+.right{
+position: absolute;
+    bottom: 77px;
+    left: 206px;
+}
