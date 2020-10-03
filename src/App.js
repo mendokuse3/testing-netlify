@@ -13,7 +13,7 @@ class App extends Component {
     showRegister: false,
     showCandidates: false,
     showDashboards: false,
-    selectedCandidate: '',
+    selectedCandidate: null,
   }
 
   setFalse = () => {
