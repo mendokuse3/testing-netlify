@@ -4,6 +4,7 @@ import Candidates from './candidates/Candidates';
 import Register from './Register';
 import Home from './Home';
 import Dashboard from './Dashboard';
+import './App.css'
 
 
 class App extends Component {
@@ -26,14 +27,14 @@ class App extends Component {
     })
   }
 
-  componentDidMount(){
-    this.myVar = setTimeout(() => {
-      this.setFalse();
-      this.setState({
-        showDashboards: true
-      })
-    }, 5000)
-  }
+  // componentDidMount(){
+  //   this.myVar = setTimeout(() => {
+  //     this.setFalse();
+  //     this.setState({
+  //       showDashboards: true
+  //     })
+  //   }, 5000)
+  // }
 
   goToDash = () => {
     this.setFalse();
