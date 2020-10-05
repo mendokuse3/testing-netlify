@@ -1,33 +1,16 @@
-/* .match{
-    position: absolute;
-    top: 35px;
-    left: 12px;
-}
-.register{
-    position: absolute;
-    top: 35px;
-    right: 5px;
-}
-.left{
-position: absolute;
-    bottom: 77px;
-    left: -24px;
-}
-.right{
-position: absolute;
-    bottom: 77px;
-    left: 206px;
-} */
 
 .dashboard-container {
     display: flex;
     flex-direction: column;
-    width: 100%;
+    align-items: center;
+    width: 500px;
+    border: 1px solid red;
+    margin: auto;
 }
 
 .topImgs {
     width: 100%;
-    max-width: 470px;
+    max-width: 420px;
 }
 
 .match, .register {
@@ -78,3 +61,10 @@ position: absolute;
         justify-content: center;
     }
 }
+
+/* @media (min-width: 530px){
+    .candidates{
+        margin-left: -4%;
+    }
+    
+} */

@@ -75,7 +75,7 @@ class App extends Component {
 
   render() {
     return (
-      <div>
+      <div className='app-container'>
         {this.state.showHome &&
         <Home goToDash={this.goToDash}/>
         }
