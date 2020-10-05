@@ -1,4 +1,4 @@
-.match{
+/* .match{
     position: absolute;
     top: 35px;
     left: 12px;
@@ -17,4 +17,64 @@ position: absolute;
 position: absolute;
     bottom: 77px;
     left: 206px;
+} */
+
+.dashboard-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.topImgs {
+    width: 100%;
+    max-width: 470px;
+}
+
+.match, .register {
+    width: 50%;
+}
+
+.register {
+    margin-top: -10.64px;
+}
+
+.candidates {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        "trump biden"
+        "pence harris"
+    ;
+    margin-left: -6%;
+    max-width: 500px;
+    justify-items: stretch;
+}
+
+.trump {
+    grid-area: trump;
+}
+
+.biden {
+    grid-area: biden;
+}
+
+.pence {
+    grid-area: pence;
+}
+
+.harris {
+    grid-area: harris;
+}
+
+@media (max-width: 450px){
+    .trump, .biden, .pence, .harris {
+        width: 100%;
+    }
+
+    .trump, .pence {
+        height: 100%;
+    }
+    .candidates {
+        justify-content: center;
+    }
 }
