@@ -1,10 +1,10 @@
 .question-container {
     background-image: url('https://user-images.githubusercontent.com/65630204/94851346-518d8780-03f6-11eb-852b-294f787973ee.png');
+    width: 355px;
 }
 
 .question-nav {
     z-index: 2;
-    position: absolute;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -74,3 +74,9 @@
     background-color: red!important;
     border-color: red!important;
 }
+
+/* @media(min-width:450px){
+    .question-nav{
+        width: 57%;
+    }
+} */
