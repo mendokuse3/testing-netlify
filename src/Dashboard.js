@@ -5,7 +5,7 @@ function Dashboard(props) {
 		props.goToCandidate(parseInt(index, 10));
 	}
 	return (
-		<div className='dashboard-container'>
+		<div id='browserView' className='dashboard-container'>
 			<div className='topImgs'>
 				<img onClick={() => props.goToQuestions()} className='match' src='https://user-images.githubusercontent.com/62581000/94751369-6c102400-0356-11eb-81f0-d92e4ddfbd71.png' alt='candidate img'/>
 				<img onClick={() => props.goToRegister()} className='register' src='https://user-images.githubusercontent.com/62581000/94752695-f443f880-0359-11eb-9ddc-a8bd934e84f9.png' alt='candidate img'/>

@@ -32,7 +32,7 @@ function CarouselItem(props) {
     }
 
     return (
-        <Carousel.Item className={props.isActive === props.index ? 'active' : ''} >
+        <Carousel.Item  className={props.isActive === props.index ? 'active' : ''} >
             <img
                 className='d-block w-100'
                 src='https://user-images.githubusercontent.com/65630204/94851346-518d8780-03f6-11eb-852b-294f787973ee.png'

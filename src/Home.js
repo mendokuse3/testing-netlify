@@ -3,7 +3,7 @@ import './CSS/Home.css'
 
 function Home(props) {
     return (
-        <div className='homeContainer' onClick={() => props.goToDash()}>
+        <div id='browserView' className='homeContainer' onClick={() => props.goToDash()}>
             <div className='home'>
                 <img className='topImg' src='https://user-images.githubusercontent.com/65630204/95115732-f3bdb000-0713-11eb-8a99-b13d38e98ef1.png' alt='homepage imgs' />
 

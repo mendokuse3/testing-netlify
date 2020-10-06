@@ -1,11 +1,11 @@
 @media(min-width:450px){
-  html{
-    height: 820px;
+  #browserView{
+    height: 100%;
     width: 375px;
     margin:auto;
     margin-top:20px;
     padding: 10px;
-    box-shadow: 5px 10px 8px #888888;
+    box-shadow: 5px 10px 8px 10px #888888;
   }
   .topImg{
         width: 365px;
@@ -118,14 +118,6 @@
         top: 37%;
     }
     
-    .homeTitle{
-        
-    }
-    .homeSubtitle{
-
-    }
-    
-    
     .trumpHomeCandi{
         height: 352px;
         position: fixed;
@@ -177,7 +169,6 @@
     .bottomImg{
         width:100%;
         position:fixed;
-        
         animation: bottommove 1s;
         animation-fill-mode: forwards;
     }

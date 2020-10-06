@@ -8,7 +8,7 @@ import Nav from '../navbar/Nav';
 function Candidates({selectedCandidate, goToDash, alreadyMatched, goBackToMatch, goToQuestions}) {
 
     return (
-        <div>
+        <div id='browserView'>
             <Nav goToDash={goToDash} goBack={alreadyMatched ? goBackToMatch : goToDash} />
             {candidateData.map((cand, i) => {
                 if(selectedCandidate === i){
