@@ -125,7 +125,7 @@ class Questions extends React.Component {
 
 	render(){
     return (
-			<div className='question-container'>
+		<div id='browserView' className='question-container'>
 				<Nav question goToDash={this.props.goToDash} goBack={this.state.showMatch ? this.goBack : this.props.goToDash}/>
 				{!this.state.showMatch &&
 				<div>

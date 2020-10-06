@@ -3,14 +3,15 @@ import '../CSS/Candidate.css'
 
 
 
+
 function Candidate(props) {
     let handleSubmit = (e)=>{
         e.preventDefault()
         props.goToQuestions()
     }
     return (
-        <div className='candidatePage'>
-
+        <div  className='candidatePage'>
+            
             <img
                 className='profileImg'
                 src={props.data.profileImg}
