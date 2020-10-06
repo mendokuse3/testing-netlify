@@ -61,10 +61,12 @@ function Register(props) {
 			<div className='voter'>
 				<Nav goToDash={props.goToDash} goBack={props.goToDash} />
 				<h1 className='reg-header'>Voter Information</h1>
+				{chosenState ==='Select State' && 
 				<h5 className='reg-info'>
-					Select a state to find out more information about election deadlines
-					and voting information
+				Select a state to find out more information about election deadlines
+				and voting information
 				</h5>
+				}
 				<DropdownButton
 					className='state-select'
 					variant='light'
