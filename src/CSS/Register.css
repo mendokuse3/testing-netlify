@@ -23,6 +23,13 @@
   text-transform: uppercase;
 }
 
+.reg-info {
+   color: white;
+   font-size: 18px;
+   padding: 40px;
+   text-align: center;
+ }
+
 .state-select {
   text-align: center;
   padding: 5px;
