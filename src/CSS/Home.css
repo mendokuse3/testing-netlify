@@ -4,13 +4,18 @@
     width: 375px;
     margin:auto;
     margin-top:20px;
-    padding: 10px;
     box-shadow: 5px 10px 8px 10px #888888;
   }
+  .homeContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+  }
   .topImg{
-        width: 365px;
-        position:fixed;
-        margin-top:20px;
+        width: 100%;
+        position:relative;
         animation: topmove 1s;
         animation-fill-mode: forwards;             
     }
@@ -20,31 +25,28 @@
         to {top: 0%;}
     }
     .titleContainer{
-        margin: 300px 60px 0 76px;
+        margin: 35%
 
     }
     
     .trumpHomeCandi{
-        height: 290px;
-        position: fixed;
-        margin:auto;
-        margin-top: 20px;
-
-        margin-left: -20px;
+        position:fixed;
+        height: 270px;
+        margin-top: -140px;
+        margin-left: -74px;
         animation: trumpmove 1.5s;
         animation-fill-mode: forwards;
     }
     @keyframes 
         trumpmove {
         from {top: -30%;}
-        to {top: 8%;}
+        to {top: 24%;}
     }
     .bidenHomeCandi{
         height: 270px;
         position: fixed;
-        margin:auto;
         margin-top: 20px;
-        margin-left:123px;
+        margin-left: 75px;
         animation: bidenmove 2s;
         animation-fill-mode: forwards;
     }
@@ -56,8 +58,8 @@
     .harrisHomeCandi{
         height: 200px;
         position: fixed;
-        margin-left: -20px;
-        margin-bottom: 70px;
+        margin-left: -98px;
+        margin-bottom: 78px;
 
         animation: harrismove 1.5s;
         animation-fill-mode: forwards;
@@ -70,8 +72,8 @@
     .penceHomeCandi{
         height: 270px;
         position: fixed;
-        margin-left: 123px;
-        margin-bottom:66px;
+        margin-left: 83px;
+        margin-bottom: 50px;
         animation: pencemove 1.5s;
         animation-fill-mode: forwards;
     }
@@ -81,9 +83,8 @@
         to {bottom: 25%;}
     }
     .bottomImg{
-        width: 365px;
-        position:fixed;
-        margin-bottom: 90px;
+        width: 100%;
+        position:relative;
         animation: bottommove 1s;
         animation-fill-mode: forwards;
     }
@@ -98,6 +99,13 @@
 
 }
 @media(max-width:450px){
+    .homeContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    }
    
     .topImg{
         width: 100%;
@@ -118,9 +126,9 @@
     }
     
     .trumpHomeCandi{
-        height: 352px;
+        height: 43%;
         position: fixed;
-        left:-19%;
+        left: -71px;
         animation: trumpmove 3s;
         animation-fill-mode: forwards;
     }
@@ -130,9 +138,9 @@
         to {top: 8%;}
     }
     .bidenHomeCandi{
-        height: 293px;
+        height: 41%;
         position: fixed;
-        right:-12%;
+        right: -71px;
         animation: bidenmove 2s;
         animation-fill-mode: forwards;
     }
@@ -142,10 +150,11 @@
         to {top: 1%;}
     }
     .harrisHomeCandi{
-        height: 240px;
+        height: 30%;
         position: fixed;
-        left: -7%;
-        animation: harrismove 4s;
+        margin-left: -98px;
+        margin-bottom: 10px;
+        animation: harrismove 3s;
         animation-fill-mode: forwards;
     }
     @keyframes 
@@ -154,10 +163,10 @@
         to {bottom: 20%;}
     }
     .penceHomeCandi{
-        height: 270px;
+        height: 36%;
         position: fixed;
-        right: -6%;
-        animation: pencemove 4.5s;
+        right: -31px;
+        animation: pencemove 2.5s;
         animation-fill-mode: forwards;
     }
     @keyframes 
@@ -174,6 +183,6 @@
     @keyframes 
         bottommove {
         from {bottom: -30%;}
-        to {bottom: 0px;}
+        to {bottom: 0px}
     }
 }

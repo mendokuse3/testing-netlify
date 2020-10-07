@@ -3,8 +3,8 @@ import './CSS/Home.css'
 
 function Home(props) {
     return (
-        <div id='browserView' className='homeContainer' onClick={() => props.goToDash()}>
-            <div className='home'>
+        <div id='browserView' onClick={() => props.goToDash()}>
+            <div className='homeContainer'>
                 <img className='topImg' src='https://user-images.githubusercontent.com/65630204/95115732-f3bdb000-0713-11eb-8a99-b13d38e98ef1.png' alt='homepage imgs' />
 
                 <img className='trumpHomeCandi' src='https://user-images.githubusercontent.com/65630204/94746267-5eed3800-034a-11eb-8806-08c7f0a30983.png' alt='homepage imgs' />
