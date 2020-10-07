@@ -27,14 +27,14 @@ class App extends Component {
     })
   }
 
-  // componentDidMount(){
-  //   this.myVar = setTimeout(() => {
-  //     this.setFalse();
-  //     this.setState({
-  //       showDashboards: true
-  //     })
-  //   }, 5000)
-  // }
+  componentDidMount(){
+    this.myVar = setTimeout(() => {
+      this.setFalse();
+      this.setState({
+        showDashboards: true
+      })
+    }, 5000)
+  }
 
   goToDash = () => {
     this.setFalse();

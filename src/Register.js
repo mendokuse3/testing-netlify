@@ -58,7 +58,7 @@ function Register(props) {
 		setData(data)
 	}
     return (
-			<div className='voter'>
+			<div id='browserView' className='voter'>
 				<Nav goToDash={props.goToDash} goBack={props.goToDash} />
 				<h1 className='reg-header'>Voter Information</h1>
 				{chosenState ==='Select State' && 
