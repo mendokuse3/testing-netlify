@@ -12,6 +12,8 @@
 .voter {
   background: #4BBCC6;
   height: 100vh;
+  padding-bottom: 20px;
+  min-height: 750px;
 }
 
 .reg-header {
