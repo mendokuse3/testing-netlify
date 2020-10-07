@@ -61,6 +61,12 @@ function Register(props) {
 			<div className='voter'>
 				<Nav goToDash={props.goToDash} goBack={props.goToDash} />
 				<h1 className='reg-header'>Voter Information</h1>
+				{chosenState ==='Select State' && 
+				<h5 className='reg-info'>
+				Select a state to find out more information about election deadlines
+				and voting information
+				</h5>
+				}
 				<DropdownButton
 					className='state-select'
 					variant='light'
@@ -78,7 +84,11 @@ function Register(props) {
 					})}
 				</DropdownButton>
 				{showState && <StateInfo stateInfo={data} />}
-					<img className='reg-img' src='https://user-images.githubusercontent.com/62581000/94859631-d5e60780-0402-11eb-90a9-4a537554964b.png' alt='footer img'/>
+				<img
+					className='reg-img'
+					src='https://user-images.githubusercontent.com/62581000/94859631-d5e60780-0402-11eb-90a9-4a537554964b.png'
+					alt='footer img'
+				/>
 			</div>
 		);
 }
