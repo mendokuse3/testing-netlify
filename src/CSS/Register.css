@@ -54,7 +54,7 @@
 }
 
 .reg-img {
-  position: absolute;
-  bottom: -57px;
-  left: -40px;
+  width: 100%;
+  position: relative;
+  bottom: -110px;
 }

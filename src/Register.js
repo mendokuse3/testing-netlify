@@ -86,7 +86,7 @@ function Register(props) {
 				{showState && <StateInfo stateInfo={data} />}
 				<img
 					className='reg-img'
-					src='https://user-images.githubusercontent.com/62581000/94859631-d5e60780-0402-11eb-90a9-4a537554964b.png'
+					src='https://user-images.githubusercontent.com/65630204/95274195-25697080-0813-11eb-875d-31eadc456b7f.png'
 					alt='footer img'
 				/>
 			</div>
